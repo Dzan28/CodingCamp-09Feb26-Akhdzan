@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aurelius Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="logo">Aurelius</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 id="welcome">Welcome to Aurelius</h1>
+        <p>Redefining Digital Excellence</p>
+        <a href="#profile" class="btn-gold">Discover More</a>
+    </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="profile">
+    <h2>Our Philosophy</h2>
+    <p class="subtitle">
+        We combine innovation, strategy, and design to create meaningful digital impact.
+    </p>
+
+    <div class="profile-grid">
+        <div class="profile-card">
+            <h3>Vision</h3>
+            <p>To shape the future through intelligent and elegant digital solutions.</p>
+        </div>
+
+        <div class="profile-card">
+            <h3>Mission</h3>
+            <p>Deliver excellence, inspire innovation, and empower transformation globally.</p>
+        </div>
+
+        <div class="profile-card">
+            <h3>Headquarters</h3>
+            <p>Jakarta — Singapore — Tokyo</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Connect With Us</h2>
+
+    <div class="contact-wrapper">
+        <form name="messageForm" class="contact-form" onsubmit="return validateForm()">
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="text" name="phone" placeholder="Phone Number">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="result-box">
+            <h3>Submission Details</h3>
+            <p id="resultName"></p>
+            <p id="resultEmail"></p>
+            <p id="resultPhone"></p>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Aurelius Group — Crafted with Precision
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
